@@ -1,21 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
-    </nav>
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
-      &copy; to me
-    </footer>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title> LydiaBandyAboutMe </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!--Body has the Header; Section: Main, Article-->
+  <header>
+    <div id="Header">
+      <img src="./Pictures\Lydia.jpg" alt="profile" style="width:40%" class="center" />
+      <h1>"Hello World! Thanks for Stopping By!"</h1>
+      <hr style="width: auto;" />
+    </div>
+  </header>
+
+  <section>
+    <main>
+      <!--About Me-->
+      <div id="Main">
+        <h2><i>My name is </i>Lydia Bandy</h2>
+        <p>I am a student at Thinkful studying to become a future coder and engineer. </p>
+        <p>I am excited to be on this new adventure and look forward to working with you!</p>
+
+        <!--Location-->
+        <p>I live in a rural area known as Carroll County, Maryland</p>
+        <p>About 45 Minutes Outside Baltimore.</p>
+      </div>
+    </main>
+    <div id="article">
+      <hr style="width: auto;" />
+      <article>
+        <img src="./Pictures\LydiaBandy.jpg" alt="piano" class="center" />
+        <ol> <!--color?-->
+          <li>
+            <p>I am a professional harpist and pianist and music teacher.</p>
+          </li>
+          <li>
+            <p>I was rated Carroll’s Best for music lessons in 2022 and in the Top 5 piano teacher of Baltimore.</p>
+          </li>
+          <li>
+            <p>I also am a composer and can be found on Spotify and other streaming platforms.</p>
+          </li>
+        </ol>
+    </div>
+    </article>
+  </section>
+
+
+  <footer>
+    <div id="footer">
+      <hr style="width: auto;" />
+      <!--add links-->
+      <h3> Contact Links</h3>
+      <ul> <!--HOW do I change color and size?-->
+        <li><a href="https://www.linkedin.com/in/lydia-bandy-2b160745/" target="_blank">linkedin</a></li>
+        <li><a href="https://github.com/LydiasPianoStudio" target="_blank">Github</a></li>
+        <li><a href="https://open.spotify.com/artist/52xxPzgfdnhflFnTu5g0OY?si=IM2zPVtnRn-lCFKA8HH1QA"
+            target="_blank">Spotify</a></li>
+        <li><a href="https://lydiaspianostudio.com/" target="_blank">Music Page</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
