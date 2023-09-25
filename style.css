@@ -8,14 +8,12 @@ h1 {
 }
 
 p {
-  color: #e0f0b6;
+  color: white;
   font-size: 30px;
 }
 
 div {
-  background-color: #4f615a;
-  color: #33475B;
-  border: 3px solid #4f615a;
+
   padding: 5px;
   text-align: center;
 }
@@ -63,4 +61,39 @@ a {
 a:hover {
   color: #ffffff;
   text-decoration: none;
+}
+
+/* Add this CSS to your existing CSS */
+ul li a {
+  color: #db0000;
+  font-size: 30px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+ul li a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body {
+background: linear-gradient(135deg, #4f615a, #e0f0b6, #33475B);
+}
+
+h1, h2, h3 {
+  opacity: 0;
+  animation: fadeIn 3s ease-in-out forwards;
+}
+
+img:hover {
+  transform: scale(1.1); /* Scale to 110% on hover */
+  transition: transform 0.3s ease; /* Smooth scaling transition */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
