@@ -76,8 +76,10 @@ ul li a:hover {
 }
 
 body {
-background: linear-gradient(135deg, #4f615a, #e0f0b6, #33475B);
+  background: linear-gradient(135deg, #28302e, #4f615a, #192529);
+  color: #fff; /* White text for better contrast */
 }
+
 
 h1, h2, h3 {
   opacity: 0;

@@ -1,16 +1,22 @@
 # LydiaBandyAboutMe
 
-Creating My First Web Page
+A personal website showcasing my journey from being a professional pianist and harpist to becoming a computer programmer. This project serves as my online resume for full-stack web development.
 
-# About Me
+# Technologies Used
 
-I am a professional pianist and harpist working on becoming a computer programmer
+- HTML
+- CSS
+- JavaScript
 
-# About Website
+# Contact
 
-Just basic HTML and CSS introducing myself to the world, "Hello, World!"
-This is my humble beginning to 
+Feel free to reach out to me at [LydiaBandy@gmail.com](mailto:LydiaBandy@gmail.com) for any inquiries or collaborations.
 
-# Thanks
+# Acknowledgments
 
-Thank you goes out to Dr. Angela Yu, for providing great instruction on Udemy; my brother, Luke Bandy, for pushing me and encouraging me to pursue tech; to my parents for their support as I pursue this dream of working in the techfield; and all the wonderful resources that others post on the web to encourage me that I can be a self-taught programmer. 
+- [Sololearn](https://www.sololearn.com/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [Udemy](https://www.udemy.com/)
+- My brother, Luke Bandy, for his continuous support and encouragement.
+- My parents for their unwavering support in pursuing my dream in the tech field.
+- The amazing online community for providing valuable resources and inspiration on my self-taught programming journey.
